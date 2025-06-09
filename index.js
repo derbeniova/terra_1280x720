@@ -470,13 +470,13 @@ if (reversed == null) { reversed = false; }
 
 	// Слой_1
 	this.instance = new lib.terra_bg_320x480();
-	this.instance.setTransform(-512,-384,0.833,0.8332);
+	this.instance.setTransform(-640,-360,0.833,0.8332);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.bg_pic, new cjs.Rectangle(-512,-384,1279.4,719.9), null);
+}).prototype = getMCSymbolPrototype(lib.bg_pic, new cjs.Rectangle(-640,-360,1279.4,719.9), null);
 
 
 (lib.bg_blue = function(mode,startPosition,loop,reversed) {
@@ -638,7 +638,7 @@ if (reversed == null) { reversed = false; }
 		
 			
 			.to(root.logo.bg_blue, 1.2, {scaleX:"2", scaleY:"1", ease:"Power3.easeOut"}, "12")
-			.to(root.logo.logo, 1.2, {scaleX:"2.2", scaleY:"2.2", x: "-=205", y: "-=165", ease:"Power3.easeOut"}, "12")
+			.to(root.logo.logo, 1.2, {scaleX:"2.2", scaleY:"2.2", x: "-=280", y: "-=135", ease:"Power3.easeOut"}, "12")
 			.from(root.bg_blue2, 0.3, {alpha:0.0, ease:"Power1.easeOut"}, "17.7")
 		
 		
@@ -734,7 +734,7 @@ if (reversed == null) { reversed = false; }
 	// terra_bg_970_jpg
 	this.bg_pic = new lib.bg_pic();
 	this.bg_pic.name = "bg_pic";
-	this.bg_pic.setTransform(512.15,383.9);
+	this.bg_pic.setTransform(640.3,360.05);
 
 	this.timeline.addTween(cjs.Tween.get(this.bg_pic).wait(1));
 
