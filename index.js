@@ -470,13 +470,13 @@ if (reversed == null) { reversed = false; }
 
 	// Слой_1
 	this.instance = new lib.terra_bg_320x480();
-	this.instance.setTransform(-640,-360,0.833,0.8332);
+	this.instance.setTransform(-742,-389,0.9,0.9002);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.bg_pic, new cjs.Rectangle(-640,-360,1279.4,719.9), null);
+}).prototype = getMCSymbolPrototype(lib.bg_pic, new cjs.Rectangle(-742,-389,1382.4,777.8), null);
 
 
 (lib.bg_blue = function(mode,startPosition,loop,reversed) {
