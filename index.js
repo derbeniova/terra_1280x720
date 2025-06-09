@@ -638,7 +638,7 @@ if (reversed == null) { reversed = false; }
 		
 			
 			.to(root.logo.bg_blue, 1.2, {scaleX:"2", scaleY:"1", ease:"Power3.easeOut"}, "12")
-			.to(root.logo.logo, 1.2, {scaleX:"2.2", scaleY:"2.2", x: "-=280", y: "-=135", ease:"Power3.easeOut"}, "12")
+			.to(root.logo.logo, 1.2, {scaleX:"2.2", scaleY:"2.2", x: "-=260", y: "-=135", ease:"Power3.easeOut"}, "12")
 			.from(root.bg_blue2, 0.3, {alpha:0.0, ease:"Power1.easeOut"}, "17.7")
 		
 		
